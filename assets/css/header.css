@@ -1,0 +1,43 @@
+.header {
+  border: 2px solid tomato;
+  padding: 32px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100%;
+}
+
+.header__logo, .header__links, .header__buttons {
+  border: 2px solid tomato;
+  height: 100px;
+}
+
+.header__logo {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__links {
+  width: 50%;
+}
+
+.header__links__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.header__links__nav a {
+  color: #fff;
+  font-family: Montserrat;
+  text-decoration: none;
+}
+
+.header__buttons {
+  width: 25%;
+}
